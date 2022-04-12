@@ -1,15 +1,10 @@
 // only change code below this line
 class Person {
-
-
     static display() {
         let message = "Static method is invoked from Person class";
         return message;
     }
-
-
     show() {
-
         console.log(Person.display());
     }
 }
