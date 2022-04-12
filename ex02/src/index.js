@@ -1,7 +1,7 @@
 // Only change code below this line
 class Book {
     constructor(title) {
-        this._title = title;
+        this.title = title;
     }
     //getter
     get title() {
