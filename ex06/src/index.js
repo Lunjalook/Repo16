@@ -1,17 +1,14 @@
-const firstName = (firstName) => {
-
+let firstName = (firstName) => {
     return firstName.toUpperCase();
 }
 
-const lastName = (lastName) => {
+let lastName = (lastName) => {
     return lastName.toLowerCase();
-
 }
-exports.lastName;
-exports.firstName;
+
 console.log(firstName("AZra"));
 console.log(lastName("CoSiCkIc"));
-module.exports = {
-    firstName,
-    lastName
-}
+
+exports.lastName = lastName;
+exports.firstName = firstName;
+
