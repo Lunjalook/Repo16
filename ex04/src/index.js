@@ -1,11 +1,11 @@
 // Only change code below this line
 class Pets {
     constructor(name, legs) {
-        this.name = name;
-        this.legs = legs;
+        this._name = name;
+        this._legs = legs;
     }
     walk() {
-        let numberOfLegs = this.name + " is walking on " + this.legs + " legs";
+        let numberOfLegs = this._name + " is walking on " + this._legs + " legs";
         return numberOfLegs;
     }
 }
@@ -16,7 +16,7 @@ class Dog extends Pets {
 
     }
     bark() {
-        let dogSay = this.name + " says " + "WUF-WUF";
+        let dogSay = this._name + " says " + "WUF-WUF";
         return dogSay;
     }
 }
